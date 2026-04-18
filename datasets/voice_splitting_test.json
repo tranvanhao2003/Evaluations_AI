@@ -1,0 +1,180 @@
+[
+  {
+    "id": "VS-T1-001",
+    "name": "Template 1: Chia sẻ kiến thức - Voice Splitting",
+    "stage": "voice_splitting",
+    "template_id": 1,
+    "input": {
+      "script_text": "Bạn có biết gì về RAG không? RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn. Chúng tôi là công ty tập trung vào mảng này và đang tìm AI Engineer tại Hà Nội với lương tới bốn mươi đến năm mươi triệu. Tại đây bạn được làm chủ công nghệ mới nhất, review lương hai lần mỗi năm và bảo hiểm premium cho cả gia đình. Đã có hơn năm mươi ứng viên quan tâm trong tuần vừa rồi. Nếu tự tin, inbox ngay để nhận JD chi tiết nhé!",
+      "format": "text",
+      "language": "vi",
+      "voice_style": "professional"
+    },
+    "metadata": {
+      "template_id": 1,
+      "category": "knowledge_sharing",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "ai_engineers",
+      "job_level": "senior",
+      "hook_type": "industry_knowledge"
+    },
+    "criteria": [
+      "semantic_completeness",
+      "duration_balance",
+      "natural_pause"
+    ],
+    "expected_output": {
+      "segments": [
+        "Bạn có biết gì về RAG không?",
+        "RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn.",
+        "Chúng tôi là công ty tập trung vào mảng này và đang tìm AI Engineer tại Hà Nội với lương tới bốn mươi đến năm mươi triệu.",
+        "Tại đây bạn được làm chủ công nghệ mới nhất, review lương hai lần mỗi năm và bảo hiểm premium cho cả gia đình.",
+        "Đã có hơn năm mươi ứng viên quan tâm trong tuần vừa rồi.",
+        "Nếu tự tin, inbox ngay để nhận JD chi tiết nhé!"
+      ]
+    }
+  },
+  {
+    "id": "VS-T3-001",
+    "name": "Template 3: Dẫn dắt tâm lý - Voice Splitting",
+    "stage": "voice_splitting",
+    "template_id": 3,
+    "input": {
+      "script_text": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó, vì công ty thường muốn người có kinh nghiệm thực tế. Anh đang tìm Marketing Manager cho công ty fintech tại Hà Nội với lương ba mươi đến bốn mươi triệu. Tại đây bạn sẽ có bảo hiểm xã hội đầy đủ, du lịch team, thưởng theo KPI, và làm việc flexible hơn. Hơn hai mươi ứng viên đã inbox, chỗ trống còn rất ít nên đừng để lỡ, đăng ký ngay hôm nay nhé!",
+      "format": "text",
+      "language": "vi",
+      "voice_style": "conversational"
+    },
+    "metadata": {
+      "template_id": 3,
+      "category": "psychological_guide",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "marketers",
+      "job_level": "mid",
+      "hook_type": "problem_statement"
+    },
+    "criteria": [
+      "semantic_completeness",
+      "duration_balance",
+      "natural_pause"
+    ],
+    "expected_output": {
+      "segments": [
+        "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó, vì công ty thường muốn người có kinh nghiệm thực tế.",
+        "Anh đang tìm Marketing Manager cho công ty fintech tại Hà Nội với lương ba mươi đến bốn mươi triệu.",
+        "Tại đây bạn sẽ có bảo hiểm xã hội đầy đủ, du lịch team, thưởng theo KPI và làm việc flexible hơn.",
+        "Hơn hai mươi ứng viên đã inbox, chỗ trống còn rất ít nên đừng để lỡ.",
+        "Đăng ký ngay hôm nay nhé!"
+      ]
+    }
+  },
+  {
+    "id": "VS-T2-002",
+    "name": "Template 2: Storytelling - Voice Splitting",
+    "stage": "voice_splitting",
+    "template_id": 2,
+    "input": {
+      "script_text": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp. Chúng tôi là công ty công nghệ hàng đầu, đang tuyển Fresh Graduate Software Engineer. Bạn sẽ được mentor từ các senior engineer, lương bảy triệu, được đào tạo kỹ năng mềm, và có môi trường làm việc thoải mái. Chúng tôi đã nhận được bốn mươi hơn CV trong tháng này. Nếu muốn bước chân vào ngành công nghệ, hãy gửi CV cho chúng tôi ngay hôm nay!",
+      "format": "text",
+      "language": "vi",
+      "voice_style": "friendly"
+    },
+    "metadata": {
+      "template_id": 2,
+      "category": "storytelling",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "fresh_graduates",
+      "job_level": "entry",
+      "hook_type": "emotional_resonance"
+    },
+    "criteria": [
+      "semantic_completeness",
+      "duration_balance",
+      "natural_pause"
+    ],
+    "expected_output": {
+      "segments": [
+        "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp.",
+        "Chúng tôi là công ty công nghệ hàng đầu, đang tuyển Fresh Graduate Software Engineer.",
+        "Bạn sẽ được mentor từ các senior engineer, lương bảy triệu, được đào tạo kỹ năng mềm và có môi trường làm việc thoải mái.",
+        "Chúng tôi đã nhận được bốn mươi hơn CV trong tháng này.",
+        "Nếu muốn bước chân vào ngành công nghệ, hãy gửi CV cho chúng tôi ngay hôm nay!"
+      ]
+    }
+  },
+  {
+    "id": "VS-T4-003",
+    "name": "Template 4: Giải quyết vấn đề - Voice Splitting",
+    "stage": "voice_splitting",
+    "template_id": 4,
+    "input": {
+      "script_text": "Bạn lo lắng về lương và phúc lợi khi đi làm? Công ty chúng tôi cam kết trả lương cạnh tranh thị trường. Chúng tôi là công ty fintech tìm Backend Developer tại Hà Nội, lương bốn mươi đến năm mươi triệu, bảo hiểm đầy đủ, thưởng theo KPI, du lịch team hai lần mỗi năm. Bạn sẽ học được công nghệ mới nhất và làm việc với team chuyên nghiệp. Đã có bốn mươi lăm ứng viên quan tâm. Đừng bỏ lỡ cơ hội này, liên hệ ngay hôm nay!",
+      "format": "text",
+      "language": "vi",
+      "voice_style": "professional"
+    },
+    "metadata": {
+      "template_id": 4,
+      "category": "problem_solving",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "backend_developers",
+      "job_level": "mid",
+      "hook_type": "problem_solution"
+    },
+    "criteria": [
+      "semantic_completeness",
+      "duration_balance",
+      "natural_pause"
+    ],
+    "expected_output": {
+      "segments": [
+        "Bạn lo lắng về lương và phúc lợi khi đi làm?",
+        "Công ty chúng tôi cam kết trả lương cạnh tranh thị trường.",
+        "Chúng tôi là công ty fintech tìm Backend Developer tại Hà Nội, lương bốn mươi đến năm mươi triệu, bảo hiểm đầy đủ, thưởng theo KPI, du lịch team hai lần mỗi năm.",
+        "Bạn sẽ học được công nghệ mới nhất và làm việc với team chuyên nghiệp.",
+        "Đã có bốn mươi lăm ứng viên quan tâm.",
+        "Đừng bỏ lỡ cơ hội này, liên hệ ngay hôm nay!"
+      ]
+    }
+  },
+  {
+    "id": "VS-T5-004",
+    "name": "Template 5: Khuyến khích hành động - Voice Splitting",
+    "stage": "voice_splitting",
+    "template_id": 5,
+    "input": {
+      "script_text": "Bạn là Designer tìm công việc đam mê? Công ty chúng tôi là một startup về Digital Marketing, đang tuyển UI UX Designer tại Hà Nội với lương ba mươi đến bốn mươi triệu. Tại đây bạn được tự do sáng tạo, làm việc với các project lớn, có mentorship từ lead designer, và được cấp MacBook. Năm mươi lăm ứng viên đã bày tỏ sự quan tâm. Đây là thời điểm vàng để bạn phát triển kỹ năng. Hãy nộp hồ sơ ngay để không bị mất chỗ nhé!",
+      "format": "text",
+      "language": "vi",
+      "voice_style": "inspirational"
+    },
+    "metadata": {
+      "template_id": 5,
+      "category": "action_encouragement",
+      "difficulty": "hard",
+      "industry": "digital_marketing",
+      "target_audience": "designers",
+      "job_level": "mid",
+      "hook_type": "opportunity_emphasis"
+    },
+    "criteria": [
+      "semantic_completeness",
+      "duration_balance",
+      "natural_pause"
+    ],
+    "expected_output": {
+      "segments": [
+        "Bạn là Designer tìm công việc đam mê?",
+        "Công ty chúng tôi là một startup về Digital Marketing, đang tuyển UI UX Designer tại Hà Nội với lương ba mươi đến bốn mươi triệu.",
+        "Tại đây bạn được tự do sáng tạo, làm việc với các project lớn, có mentorship từ lead designer và được cấp MacBook.",
+        "Năm mươi lăm ứng viên đã bày tỏ sự quan tâm.",
+        "Đây là thời điểm vàng để bạn phát triển kỹ năng.",
+        "Hãy nộp hồ sơ ngay để không bị mất chỗ nhé!"
+      ]
+    }
+  }
+]

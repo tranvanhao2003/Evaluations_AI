@@ -1,0 +1,132 @@
+[
+  {
+    "id": "STT-RAW-T1-001",
+    "name": "Template 1 Raw STT - AI Engineer",
+    "stage": "stt_raw_transcription",
+    "input": "Bạn có biết gì về RAG không? RAG là viết tắt của Retrieval Augmented Generation",
+    "metadata": {
+      "template_id": 1,
+      "category": "knowledge_sharing",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "ai_engineers",
+      "job_level": "senior",
+      "hook_type": "industry_knowledge",
+      "tts_provider": "vieneu",
+      "language": "vi",
+      "gender": "female",
+      "speed": 1.0,
+      "split_by_sentence": false,
+      "stt_mode": "raw"
+    },
+    "criteria": [
+      "word_error_rate",
+      "punctuation_capitalization",
+      "timestamp_accuracy"
+    ]
+  },
+  {
+    "id": "STT-RAW-T2-002",
+    "name": "Template 2 Raw STT - Marketing Manager",
+    "stage": "stt_raw_transcription",
+    "input": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó",
+    "metadata": {
+      "template_id": 3,
+      "category": "psychological_guide",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "marketers",
+      "job_level": "mid",
+      "hook_type": "problem_statement",
+      "tts_provider": "vieneu",
+      "language": "vi",
+      "gender": "female",
+      "speed": 1.0,
+      "split_by_sentence": false,
+      "stt_mode": "raw"
+    },
+    "criteria": [
+      "word_error_rate",
+      "punctuation_capitalization",
+      "timestamp_accuracy"
+    ]
+  },
+  {
+    "id": "STT-RAW-T3-003",
+    "name": "Template 3 Raw STT - Fresh Graduate",
+    "stage": "stt_raw_transcription",
+    "input": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp",
+    "metadata": {
+      "template_id": 2,
+      "category": "storytelling",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "fresh_graduates",
+      "job_level": "entry",
+      "hook_type": "emotional_resonance",
+      "tts_provider": "vieneu",
+      "language": "vi",
+      "gender": "female",
+      "speed": 1.0,
+      "split_by_sentence": false,
+      "stt_mode": "raw"
+    },
+    "criteria": [
+      "word_error_rate",
+      "punctuation_capitalization",
+      "timestamp_accuracy"
+    ]
+  },
+  {
+    "id": "STT-RAW-T4-004",
+    "name": "Template 4 Raw STT - Backend Developer",
+    "stage": "stt_raw_transcription",
+    "input": "Bạn lo lắng về lương và phúc lợi khi đi làm? Công ty chúng tôi cam kết trả lương cạnh tranh",
+    "metadata": {
+      "template_id": 4,
+      "category": "problem_solving",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "backend_developers",
+      "job_level": "mid",
+      "hook_type": "problem_solution",
+      "tts_provider": "vieneu",
+      "language": "vi",
+      "gender": "female",
+      "speed": 1.0,
+      "split_by_sentence": false,
+      "stt_mode": "raw"
+    },
+    "criteria": [
+      "word_error_rate",
+      "punctuation_capitalization",
+      "timestamp_accuracy"
+    ]
+  },
+  {
+    "id": "STT-RAW-T5-005",
+    "name": "Template 5 Raw STT - UI UX Designer",
+    "stage": "stt_raw_transcription",
+    "input": "Bạn là Designer tìm công việc đam mê? Công ty chúng tôi là một startup về Digital Marketing",
+    "metadata": {
+      "template_id": 5,
+      "category": "action_encouragement",
+      "difficulty": "hard",
+      "industry": "digital_marketing",
+      "target_audience": "designers",
+      "job_level": "mid",
+      "hook_type": "opportunity_emphasis",
+      "tts_provider": "vieneu",
+      "language": "vi",
+      "gender": "female",
+      "speed": 1.0,
+      "split_by_sentence": false,
+      "stt_mode": "raw"
+    },
+    "criteria": [
+      "word_error_rate",
+      "punctuation_capitalization",
+      "timestamp_accuracy"
+    ]
+  }
+]

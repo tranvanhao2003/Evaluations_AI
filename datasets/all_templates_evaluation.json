@@ -1,0 +1,278 @@
+[
+  {
+    "id": "TEMPLATE-001-KNOWLEDGE",
+    "name": "Template 1: Chia Sẻ Kiến Thức (Knowledge Sharing)",
+    "stage": "script_generation",
+    "input": "Tuyển AI Engineer tại Hà Nội. Lương 40-50 triệu/tháng. Chuyên về Retrieval Augmented Generation (RAG). Phúc lợi: làm chủ công nghệ mới, review lương 2 lần/năm, bảo hiểm premium cho gia đình.",
+    "metadata": {
+      "template_id": 1,
+      "be_template_name": "Chia sẻ kiến thức",
+      "category": "knowledge_sharing",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "ai_engineers",
+      "job_level": "senior",
+      "hook_type": "industry_knowledge"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn có biết gì về RAG không? RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn. Chúng tôi là công ty tập trung vào mảng này và đang tìm AI Engineer tại Hà Nội với lương tới bốn mươi đến năm mươi triệu. Tại đây bạn được làm chủ công nghệ mới nhất, review lương hai lần mỗi năm và bảo hiểm premium cho cả gia đình. Đã có hơn năm mươi ứng viên quan tâm trong tuần vừa rồi. Nếu tự tin, inbox ngay để nhận JD chi tiết nhé!"
+  },
+  {
+    "id": "TEMPLATE-003-PSYCHOLOGY",
+    "name": "Template 3: Dẫn Dắt Tâm Lý (Psychological Guide)",
+    "stage": "script_generation",
+    "input": "Tuyển Marketing Manager tại Hà Nội. Lương 30-40 triệu. Công ty fintech, 50+ nhân viên. Phúc lợi: BHXH đầy đủ, du lịch team, thưởng KPI, làm việc flexible. Vấn đề: Marketing hiện tại khó tìm người có kinh nghiệm thực tế.",
+    "metadata": {
+      "template_id": 3,
+      "be_template_name": "Dẫn dắt tâm lý",
+      "category": "psychological_guide",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "marketers",
+      "job_level": "mid",
+      "hook_type": "problem_statement"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó, vì công ty thường muốn người có kinh nghiệm thực tế. Anh đang tìm Marketing Manager cho công ty fintech tại Hà Nội với lương ba mươi đến bốn mươi triệu. Tại đây bạn sẽ có bảo hiểm xã hội đầy đủ, du lịch team, thưởng theo KPI, và làm việc flexible hơn. Hơn hai mươi ứng viên đã inbox, chỗ trống còn rất ít nên đừng để lỡ, đăng ký ngay hôm nay nhé!"
+  },
+  {
+    "id": "TEMPLATE-002-STORYTELLING",
+    "name": "Template 2: Storytelling (Kể Chuyện)",
+    "stage": "script_generation",
+    "input": "Tuyển Fresh Graduate Software Engineer. Lương 7 triệu/tháng. Công ty tech hàng đầu. Phúc lợi: mentorship, đào tạo kỹ năng mềm, môi trường thoải mái, 40+ CV trong tháng.",
+    "metadata": {
+      "template_id": 2,
+      "be_template_name": "Kể chuyện đánh lừa",
+      "category": "storytelling",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "fresh_graduates",
+      "job_level": "junior",
+      "hook_type": "narrative"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp. Chúng tôi là công ty công nghệ hàng đầu, đang tuyển Fresh Graduate Software Engineer. Bạn sẽ được mentor từ các senior engineer, lương bảy triệu, được đào tạo kỹ năng mềm, và có môi trường làm việc thoải mái. Chúng tôi đã nhận được bốn mươi hơn CV trong tháng này. Nếu muốn bước chân vào ngành công nghệ, hãy gửi CV cho chúng tôi ngay hôm nay!"
+  },
+  {
+    "id": "TEMPLATE-004-PROFESSION",
+    "name": "Template 4: Giải Quyết Vấn Đề (Professional Challenges)",
+    "stage": "script_generation",
+    "input": "Tuyển Backend Developer. Lương 40-50 triệu. Công ty fintech. Phúc lợi: BHXH đầy đủ, thưởng KPI, du lịch team 2 lần/năm, flexible. 45+ CV đã inbox.",
+    "metadata": {
+      "template_id": 4,
+      "be_template_name": "Khó khăn nghề nghiệp",
+      "category": "problem_solving",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "developers",
+      "job_level": "mid",
+      "hook_type": "concern_addressing"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn lo lắng về lương và phúc lợi khi đi làm? Công ty chúng tôi cam kết trả lương cạnh tranh thị trường. Chúng tôi là công ty fintech tìm Backend Developer tại Hà Nội, lương bốn mươi đến năm mươi triệu, bảo hiểm đầy đủ, thưởng theo KPI, du lịch team hai lần mỗi năm. Bạn sẽ học được công nghệ mới nhất và làm việc với team chuyên nghiệp. Đã có bốn mươi lăm ứng viên quan tâm. Đừng bỏ lỡ cơ hội này, liên hệ ngay hôm nay!"
+  },
+  {
+    "id": "TEMPLATE-005-INSPIRATION",
+    "name": "Template 5: Khuyến Khích (Inspirational Call)",
+    "stage": "script_generation",
+    "input": "Tuyển UI/UX Designer. Lương 30-40 triệu. Startup Digital Marketing. Phúc lợi: tự do sáng tạo, projects lớn, mentorship, MacBook cấp. 55+ CV đã inbox.",
+    "metadata": {
+      "template_id": 5,
+      "be_template_name": "Pain point nổi bật",
+      "category": "inspirational",
+      "difficulty": "hard",
+      "industry": "marketing",
+      "target_audience": "designers",
+      "job_level": "mid",
+      "hook_type": "inspirational"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn là Designer tìm công việc đam mê? Công ty chúng tôi là một startup về Digital Marketing, đang tuyển UI UX Designer tại Hà Nội với lương ba mươi đến bốn mươi triệu. Tại đây bạn được tự do sáng tạo, làm việc với các project lớn, có mentorship từ lead designer, và được cấp MacBook. Năm mươi lăm ứng viên đã bày tỏ sự quan tâm. Đây là thời điểm vàng để bạn phát triển kỹ năng. Hãy nộp hồ sơ ngay để không bị mất chỗ nhé!"
+  },
+  {
+    "id": "TEMPLATE-006-URGENCY",
+    "name": "Template 6: Tạo Cấp Bách (Urgency Creation)",
+    "stage": "script_generation",
+    "input": "Tuyển Sales Manager. Lương 35-45 triệu. Công ty bán hàng thế mạnh. Phúc lợi: thưởng cao, cơ hội thăng tiến, team support. Hạn nộp 3 ngày.",
+    "metadata": {
+      "template_id": 6,
+      "be_template_name": "Fast Hire Now (Urgent)",
+      "category": "urgency",
+      "difficulty": "hard",
+      "industry": "sales",
+      "target_audience": "sales_professionals",
+      "job_level": "mid",
+      "hook_type": "scarcity"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Đừng bỏ lỡ cơ hội tuyển dụng Sales Manager tại công ty bán hàng thế mạnh! Chúng tôi đang tìm kiếm một người có kinh nghiệm và đam mê bán hàng. Vị trí này cung cấp mức lương ba mươi năm đến bốn mươi năm triệu, thưởng cao dựa trên hiệu suất, cơ hội thăng tiến rõ ràng, và hỗ trợ từ một team chuyên nghiệp. Chúng tôi chỉ nhận đơn trong ba ngày tới, nên hãy đăng ký ngay hôm nay!"
+  },
+  {
+    "id": "TEMPLATE-007-BENEFIT",
+    "name": "Template 7: Tập Trung Lợi Ích (Benefit Focus)",
+    "stage": "script_generation",
+    "input": "Tuyển HR Manager. Lương 28-35 triệu. Công ty BĐS. Phúc lợi: phát triển leadership, du lịch quốc tế, bảo hiểm toàn diện, làm việc hybrid.",
+    "metadata": {
+      "template_id": 7,
+      "be_template_name": "Top 3 lý do",
+      "category": "benefit_focus",
+      "difficulty": "medium",
+      "industry": "realestate",
+      "target_audience": "hr_professionals",
+      "job_level": "mid",
+      "hook_type": "benefit_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn muốn phát triển kỹ năng leadership và làm việc trong môi trường chuyên nghiệp? Công ty bất động sản chúng tôi đang tuyển HR Manager với mức lương hai mươi tám đến ba mươi năm triệu. Bạn sẽ có cơ hội phát triển leadership, tham gia du lịch quốc tế, được bảo hiểm toàn diện, và làm việc trong chế độ hybrid linh hoạt. Hơn ba mươi ứng viên đã quan tâm. Nếu muốn bước vào vai trò này, hãy gửi CV ngay hôm nay!"
+  },
+  {
+    "id": "TEMPLATE-008-EXPERIENCE",
+    "name": "Template 8: Kinh Nghiệm Yêu Cầu (Experience Highlight)",
+    "stage": "script_generation",
+    "input": "Tuyển Senior Architect. Lương 60-80 triệu. Công ty tech. Phúc lợi: ESOP, stock options, tự do kỹ thuật, team toàn star. 20+ CV inbox.",
+    "metadata": {
+      "template_id": 8,
+      "be_template_name": "Q&A / Giải đáp thắc mắc",
+      "category": "experience_highlight",
+      "difficulty": "hard",
+      "industry": "technology",
+      "target_audience": "senior_engineers",
+      "job_level": "senior",
+      "hook_type": "experience_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn đã có kinh nghiệm 5+ năm làm architect và muốn tiếp tục phát triển sự nghiệp ở một công ty tech hàng đầu? Chúng tôi đang tuyển Senior Architect với mức lương từ sáu mươi đến tám mươi triệu. Bạn sẽ được sở hữu cổ phần qua ESOP, có stock options, tự do lựa chọn công nghệ, và làm việc cùng những engineer xuất sắc nhất. Chúng tôi đã có hơn hai mươi ứng viên quan tâm. Nếu bạn tự tin về kỹ năng của mình, hãy liên hệ ngay!"
+  },
+  {
+    "id": "TEMPLATE-009-COMMUNITY",
+    "name": "Template 9: Cộng Đồng & Culture (Community Focus)",
+    "stage": "script_generation",
+    "input": "Tuyển Developer Community Manager. Lương 20-25 triệu. Startup tech. Phúc lợi: learning budget, flexible hours, team đa quốc gia, startup energy.",
+    "metadata": {
+      "template_id": 9,
+      "be_template_name": "Vlog cá nhân",
+      "category": "community_focus",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "community_managers",
+      "job_level": "junior",
+      "hook_type": "passion_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn có đam mê xây dựng cộng đồng developer và muốn làm việc trong một startup trẻ năng động? Công ty tech chúng tôi đang tuyển Developer Community Manager với lương hai mươi đến hai mươi năm triệu. Tại đây bạn sẽ có budget học tập linh hoạt, giờ làm việc mềm dẻo, làm việc với team từ nhiều quốc gia khác nhau, và cảm nhận năng lượng startup thực sự. Năm mươi ứng viên đã quan tâm. Nếu muốn trở thành một phần của cộng đồng này, hãy nộp đơn ngay hôm nay!"
+  },
+  {
+    "id": "TEMPLATE-010-GROWTH",
+    "name": "Template 10: Tăng Trưởng Nghề Nghiệp (Career Growth)",
+    "stage": "script_generation",
+    "input": "Tuyển Product Manager. Lương 35-50 triệu. Startup unicorn. Phúc lợi: cơ hội scaled, mentor từ best founders, equity, learning budget lớn.",
+    "metadata": {
+      "template_id": 10,
+      "be_template_name": "POV: Một ngày đi làm",
+      "category": "growth_focus",
+      "difficulty": "hard",
+      "industry": "technology",
+      "target_audience": "product_managers",
+      "job_level": "senior",
+      "hook_type": "growth_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn muốn tăng trưởng sự nghiệp Product Manager ở một startup unicorn? Chúng tôi đang tuyển Product Manager với mức lương ba mươi năm đến năm mươi triệu. Bạn sẽ có cơ hội làm việc trên các sản phẩm quy mô lớn, được mentor từ những founder giỏi nhất, nhận equity của công ty, và có budget học tập lớn. Chúng tôi cần một người có tầm nhìn và khả năng thực thi cao. Nếu bạn sẵn sàng, hãy nộp hồ sơ ngay!"
+  },
+  {
+    "id": "TEMPLATE-011-IMPACT",
+    "name": "Template 11: Tạo Ảnh Hưởng (Impact Driven)",
+    "stage": "script_generation",
+    "input": "Tuyển Data Scientist. Lương 45-60 triệu. Công ty AI. Phúc lợi: công bố bài báo, hợp tác research, GPU power, flexible work.",
+    "metadata": {
+      "template_id": 11,
+      "be_template_name": "ShortJD Voice Master",
+      "category": "impact_driven",
+      "difficulty": "hard",
+      "industry": "ai",
+      "target_audience": "data_scientists",
+      "job_level": "senior",
+      "hook_type": "passion_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn có đam mê sử dụng AI và Machine Learning để tạo ảnh hưởng tích cực? Công ty AI chúng tôi đang tuyển Data Scientist với mức lương bốn mươi năm đến sáu mươi triệu. Bạn sẽ có cơ hội công bố các bài báo khoa học, hợp tác với các nhà nghiên cứu hàng đầu, sử dụng GPU power mạnh mẽ, và làm việc linh hoạt. Chúng tôi đang tìm một người có khả năng research sâu và biết cách áp dụng vào thực tế. Nếu đây là bạn, hãy liên hệ ngay!"
+  },
+  {
+    "id": "TEMPLATE-012-BALANCE",
+    "name": "Template 12: Work-Life Balance (Well-being Focus)",
+    "stage": "script_generation",
+    "input": "Tuyển QA Engineer. Lương 20-28 triệu. Công ty tech. Phúc lợi: 5-day work week, gym subsidy, mental health support, WFH 3 days/week.",
+    "metadata": {
+      "template_id": 12,
+      "be_template_name": "Thông báo truy tìm",
+      "category": "wellbeing",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "qa_engineers",
+      "job_level": "junior",
+      "hook_type": "concern_addressing"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn tìm một công việc QA Engineer với cân bằng cuộc sống tốt? Công ty tech chúng tôi đang tuyển QA Engineer với lương hai mươi đến hai mươi tám triệu. Chúng tôi cam kết làm việc năm ngày/tuần, hỗ trợ gym, chăm sóc sức khỏe tâm thần, và cho phép làm việc từ xa ba ngày trong tuần. Chúng tôi tin rằng một lợi ích tốt sẽ tạo ra một team hạnh phúc và hiệu quả. Nếu bạn đang tìm một công ty quan tâm đến sức khỏe của bạn, hãy nộp đơn ngay!"
+  }
+]

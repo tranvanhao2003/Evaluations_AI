@@ -1,0 +1,186 @@
+[
+  {
+    "id": "SUB-T1-001",
+    "name": "Template 1 Subtitle - AI Engineer",
+    "stage": "subtitle_splitting",
+    "input": {
+      "text": "Bạn có biết gì về RAG không? RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn.",
+      "word_timings": [],
+      "source_stage": "tts_output"
+    },
+    "metadata": {
+      "template_id": 1,
+      "category": "knowledge_sharing",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "ai_engineers",
+      "job_level": "senior",
+      "hook_type": "industry_knowledge",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "readability",
+      "synchronization",
+      "line_break_logic"
+    ],
+    "expected_output": [
+      {
+        "text": "Bạn có biết gì\nvề RAG không?"
+      },
+      {
+        "text": "RAG là viết tắt của\nRetrieval Augmented Generation,"
+      },
+      {
+        "text": "một kỹ thuật giúp AI truy xuất\nthông tin chính xác hơn."
+      }
+    ]
+  },
+  {
+    "id": "SUB-T2-002",
+    "name": "Template 2 Subtitle - Marketing Manager",
+    "stage": "subtitle_splitting",
+    "input": {
+      "text": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó, vì công ty thường muốn người có kinh nghiệm thực tế.",
+      "word_timings": [],
+      "source_stage": "tts_output"
+    },
+    "metadata": {
+      "template_id": 3,
+      "category": "psychological_guide",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "marketers",
+      "job_level": "mid",
+      "hook_type": "problem_statement",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "readability",
+      "synchronization",
+      "line_break_logic"
+    ],
+    "expected_output": [
+      {
+        "text": "Với bằng cấp marketing\nmà bạn tìm công việc ổn định lại khó,"
+      },
+      {
+        "text": "vì công ty thường muốn người\ncó kinh nghiệm thực tế."
+      }
+    ]
+  },
+  {
+    "id": "SUB-T3-003",
+    "name": "Template 3 Subtitle - Fresh Graduate",
+    "stage": "subtitle_splitting",
+    "input": {
+      "text": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp. Chúng tôi là công ty công nghệ hàng đầu.",
+      "word_timings": [],
+      "source_stage": "tts_output"
+    },
+    "metadata": {
+      "template_id": 2,
+      "category": "storytelling",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "fresh_graduates",
+      "job_level": "entry",
+      "hook_type": "emotional_resonance",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "readability",
+      "synchronization",
+      "line_break_logic"
+    ],
+    "expected_output": [
+      {
+        "text": "Bạn sắp tốt nghiệp đại học\nnhưng còn lúng túng"
+      },
+      {
+        "text": "về hướng đi sự nghiệp."
+      },
+      {
+        "text": "Chúng tôi là công ty\ncông nghệ hàng đầu."
+      }
+    ]
+  },
+  {
+    "id": "SUB-T4-004",
+    "name": "Template 4 Subtitle - Backend Developer",
+    "stage": "subtitle_splitting",
+    "input": {
+      "text": "Bạn lo lắng về lương và phúc lợi khi đi làm? Công ty chúng tôi cam kết trả lương cạnh tranh thị trường.",
+      "word_timings": [],
+      "source_stage": "tts_output"
+    },
+    "metadata": {
+      "template_id": 4,
+      "category": "problem_solving",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "backend_developers",
+      "job_level": "mid",
+      "hook_type": "problem_solution",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "readability",
+      "synchronization",
+      "line_break_logic"
+    ],
+    "expected_output": [
+      {
+        "text": "Bạn lo lắng về lương\nvà phúc lợi khi đi làm?"
+      },
+      {
+        "text": "Công ty chúng tôi cam kết\ntrả lương cạnh tranh thị trường."
+      }
+    ]
+  },
+  {
+    "id": "SUB-T5-005",
+    "name": "Template 5 Subtitle - UI UX Designer",
+    "stage": "subtitle_splitting",
+    "input": {
+      "text": "Bạn là Designer tìm công việc đam mê? Công ty chúng tôi là một startup về Digital Marketing, đang tuyển UI UX Designer.",
+      "word_timings": [],
+      "source_stage": "tts_output"
+    },
+    "metadata": {
+      "template_id": 5,
+      "category": "action_encouragement",
+      "difficulty": "hard",
+      "industry": "digital_marketing",
+      "target_audience": "designers",
+      "job_level": "mid",
+      "hook_type": "opportunity_emphasis",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "readability",
+      "synchronization",
+      "line_break_logic"
+    ],
+    "expected_output": [
+      {
+        "text": "Bạn là Designer tìm\ncông việc đam mê?"
+      },
+      {
+        "text": "Công ty chúng tôi là một startup\nvề Digital Marketing,"
+      },
+      {
+        "text": "đang tuyển\nUI UX Designer."
+      }
+    ]
+  }
+]

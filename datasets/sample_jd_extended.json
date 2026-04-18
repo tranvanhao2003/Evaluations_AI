@@ -1,0 +1,71 @@
+[
+  {
+    "id": "RECRUITMENT-VIDEO-001",
+    "name": "Story Twist - Senior Backend Engineer (TechStart)",
+    "stage": "script_generation",
+    "input": "Tuyển Lập trình viên Python cấp cao tại TechStart Vietnam. Lương 40-60 triệu, remote 3 ngày/tuần. Phúc lợi: laptop cao cấp, khóa học miễn phí, bảo hiểm xã hội đầy đủ, bonus quý. Team 15 người, dự án cho fintech.",
+    "metadata": {
+      "template_id": 13,
+      "be_template_name": "Kể chuyện đánh lừa",
+      "category": "story_twist",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "senior_engineers",
+      "job_level": "senior",
+      "hook_type": "conversational_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bữa rồi, bạn có biết công ty nào dùng Python mà lương tới 40 triệu không? TechStart Vietnam cần lập trình viên Python cấp cao ngay bây giờ. Lương 40 đến 60 triệu, remote ba ngày một tuần. Phúc lợi: laptop cao cấp, khóa học miễn phí, bảo hiểm xã hội đầy đủ, bonus quý. Dự án fintech, team 15 người chuyên nghiệp. Nộp hồ sơ ngay để không bị lỡ cơ hội tuyệt vời này."
+  },
+  {
+    "id": "RECRUITMENT-VIDEO-002",
+    "name": "Story Twist - Entry Level Sales (DigiMart)",
+    "stage": "script_generation",
+    "input": "Vị trí: Nhân viên Bán hàng tại DigiMart. Lương 15-20 triệu, khách hàng khó, bán sản phẩm điện tử. Phúc lợi: hoa hồng cao, đạo tạo kĩ năng bán, không yêu cầu kinh nghiệm, áo công ty, cơm trưa miễn phí.",
+    "metadata": {
+      "template_id": 14,
+      "be_template_name": "Kể chuyện đánh lừa",
+      "category": "story_twist",
+      "difficulty": "easy",
+      "industry": "retail",
+      "target_audience": "entry_level_sales",
+      "job_level": "entry",
+      "hook_type": "rhetorical_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Có người kiếm tiền từ việc bán điện tử không? DigiMart tuyển nhân viên bán hàng ngay lúc này. Lương 15 đến 20 triệu, hoa hồng cao. Khách hàng chất lượng, sản phẩm điện tử công nghệ. Phúc lợi: đạo tạo kĩ năng bán miễn phí, không yêu cầu kinh nghiệm, áo công ty, cơm trưa miễn phí. Công ty đang mở rộng nhanh, có 200 nhân viên bán hàng thành công. Ứng tuyển hôm nay, bắt đầu tuần tới."
+  },
+  {
+    "id": "RECRUITMENT-VIDEO-003",
+    "name": "Story Twist - Project Manager Construction (BuildPro)",
+    "stage": "script_generation",
+    "input": "Tuyển Quản lý Dự án Xây dựng tại BuildPro. Lương 50-70 triệu, quản lý 20 công nhân. Phúc lợi: xe công, điện thoại, bảo hiểm y tế cao cấp, thưởng Tết, du lịch team. Dự án lớn: dân cư, khách sạn, shopping mall.",
+    "metadata": {
+      "template_id": 15,
+      "be_template_name": "Kể chuyện đánh lừa",
+      "category": "story_twist",
+      "difficulty": "medium",
+      "industry": "construction",
+      "target_audience": "project_managers",
+      "job_level": "mid",
+      "hook_type": "direct_question"
+    },
+    "criteria": [
+      "relevance",
+      "structure",
+      "tone_of_voice",
+      "length_constraint"
+    ],
+    "expected_output": "Bạn có muốn quản lý dự án xây dựng lớn không? BuildPro cần quản lý dự án kinh nghiệm. Lương 50 đến 70 triệu, quản lý 20 công nhân chuyên nghiệp. Dự án khủng: dân cư, khách sạn, shopping mall. Phúc lợi: xe công, điện thoại do công ty cấp, bảo hiểm y tế cao cấp, thưởng Tết, du lịch team hàng năm. Công ty 15 năm kinh nghiệm, hàng trăm dự án thành công. Liên hệ ngay để biết chi tiết."
+  }
+]
