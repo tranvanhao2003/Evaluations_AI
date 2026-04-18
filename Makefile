@@ -3,7 +3,7 @@ export PYTHONPATH=..
 UV ?= uv
 PYTHON ?= python
 
-.PHONY: help install eval eval-mock eval-script eval-stt eval-stt-raw eval-subtitle eval-keyword clean
+.PHONY: help install eval eval-mock eval-script eval-stt eval-stt-raw eval-subtitle eval-image-search eval-video-search clean
 
 help:
 	@echo "📋 Evaluation AI - Available Targets:"
@@ -14,7 +14,8 @@ help:
 	@echo "  eval-stt                - Evaluate STT transcription (jd_stt_dataset)"
 	@echo "  eval-stt-raw            - Evaluate raw STT before alignment (jd_stt_raw_dataset)"
 	@echo "  eval-subtitle           - Evaluate subtitle splitting (subtitle_splitting stage)"
-	@echo "  eval-keyword            - Evaluate keyword generation (jd_keyword_dataset)"
+	@echo "  eval-image-search       - Evaluate image search query generation (jd_image_search_dataset)"
+	@echo "  eval-video-search       - Evaluate video search segment generation (jd_video_search_dataset)"
 	@echo ""
 	@echo "  eval-quick              - Quick test run (single stage)"
 	@echo "  eval-report             - Generate evaluation report from latest results"
@@ -27,14 +28,12 @@ help:
 	@echo "  - jd_stt_raw_dataset (5 items) - Raw STT transcription"
 	@echo "  - jd_voice_splitting_dataset (5 items) - Voice splitting"
 	@echo "  - jd_subtitle_dataset (5 items) - Subtitle splitting"
-	@echo "  - jd_keyword_dataset (3 items) - Keyword generation"
+	@echo "  - jd_image_search_dataset (3 items) - Image search generation"
+	@echo "  - jd_video_search_dataset (3 items) - Video search generation"
 	@echo ""
 	@echo "📈 Current Status:"
-	@echo "  - Script Gen: 3/14 passing (21.4%)"
-	@echo "  - STT: 5/5 passing (100%) ✅"
-	@echo "  - Subtitle: 5/5 passing (100%) ✅"
-	@echo "  - Keyword: 3/3 passing (100%) ✅"
-	@echo "  - TOTAL: review latest results with 'make eval-report'"
+	@echo "  - Review latest results with 'make eval-report'"
+	@echo "  - Langfuse datasets will be recreated automatically if deleted"
 
 # Main evaluation - runs all experiments using proper Langfuse run_experiment() API
 eval:
@@ -73,9 +72,13 @@ eval-subtitle:
 	@echo "📺 Evaluating Subtitle Splitting..."
 	@cd .. && BACKEND_URL=http://localhost:8001 USE_MOCK_BACKEND=false REQUIRE_REAL_BACKEND=true $(PYTHON) Evaluation_AI/run_single_experiment.py --stage subtitle_splitting --dataset jd_subtitle_dataset
 
-eval-keyword:
-	@echo "🔑 Evaluating Keyword Generation..."
-	@cd .. && BACKEND_URL=http://localhost:8001 USE_MOCK_BACKEND=false REQUIRE_REAL_BACKEND=true $(PYTHON) Evaluation_AI/run_single_experiment.py --stage keyword_generation --dataset jd_keyword_dataset
+eval-image-search:
+	@echo "🖼️  Evaluating Image Search Generation..."
+	@cd .. && BACKEND_URL=http://localhost:8001 USE_MOCK_BACKEND=false REQUIRE_REAL_BACKEND=true $(PYTHON) Evaluation_AI/run_single_experiment.py --stage image_search_generation --dataset jd_image_search_dataset
+
+eval-video-search:
+	@echo "🎬 Evaluating Video Search Generation..."
+	@cd .. && BACKEND_URL=http://localhost:8001 USE_MOCK_BACKEND=false REQUIRE_REAL_BACKEND=true $(PYTHON) Evaluation_AI/run_single_experiment.py --stage video_search_generation --dataset jd_video_search_dataset
 
 # Quick test - script stage
 eval-quick:
@@ -134,4 +137,5 @@ e-s: eval-script
 e-st: eval-stt
 e-str: eval-stt-raw
 e-sub: eval-subtitle
-e-k: eval-keyword
+e-is: eval-image-search
+e-vs: eval-video-search

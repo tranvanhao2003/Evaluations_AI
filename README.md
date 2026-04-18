@@ -2,13 +2,14 @@
 
 `Evaluation_AI` là hệ thống đánh giá chất lượng cho các thành phần AI đang được sử dụng trong `BE` của dự án ShortJD. Mục tiêu của module này không phải tạo ra output mẫu, mà là lấy `input` từ dataset, gọi đúng processor hoặc API của `BE`, lấy `output` runtime thực tế, rồi chấm `output` đó theo các tiêu chí đã định nghĩa.
 
-Hệ thống hiện tập trung vào 6 nhóm đánh giá:
+Hệ thống hiện tập trung vào 7 nhóm đánh giá:
 - `script_generation`
 - `stt_transcription`
 - `stt_raw_transcription`
 - `voice_splitting`
 - `subtitle_splitting`
-- `keyword_generation`
+- `image_search_generation`
+- `video_search_generation`
 
 Điểm số của mọi metric đều được chuẩn hóa trong khoảng `0.0 -> 1.0` để thuận tiện cho Langfuse, dashboard so sánh thí nghiệm và các báo cáo tổng hợp.
 
@@ -31,7 +32,8 @@ Các stage đang active trong hệ thống:
 | `stt_raw_transcription` | Chấm transcript thô trước align | Raw transcript |
 | `voice_splitting` | Chấm cách chia script thành segment voice | Danh sách `segments` |
 | `subtitle_splitting` | Chấm chất lượng chia subtitle | Danh sách caption `text/start/end` |
-| `keyword_generation` | Chấm từ khóa tìm ảnh/video | Danh sách keyword/query |
+| `image_search_generation` | Chấm truy vấn tìm ảnh stock | Danh sách `image_queries` |
+| `video_search_generation` | Chấm truy vấn tìm video theo phân cảnh | Danh sách `video_segments` |
 
 `voice_generation` không còn nằm trong pipeline eval hiện tại vì repo này không đánh giá trực tiếp artifact audio waveform.
 
@@ -62,7 +64,8 @@ Evaluation_AI/
 │   ├── stt_raw_transcription_test.json
 │   ├── voice_splitting_test.json
 │   ├── subtitle_splitting_test.json
-│   └── keyword_generation_test.json
+│   ├── image_search_generation_test.json
+│   └── video_search_generation_test.json
 ├── metrics/
 │   ├── script_eval.py
 │   ├── stt_eval.py
@@ -176,13 +179,21 @@ Một số metric judge dùng rubric nội bộ `1-5`, sau đó normalize về `
 | `synchronization` | Tính nhất quán timing và coverage text |
 | `line_break_logic` | Tránh orphan line, tránh ngắt ở điểm yếu |
 
-### 6. `keyword_generation`
+### 6. `image_search_generation`
 
 | Metric | Ý nghĩa |
 |---|---|
-| `visual_relevance` | Từ khóa có phản ánh đúng hình ảnh cần tìm không |
-| `searchability` | Từ khóa có khả năng cho ra kết quả stock tốt không |
-| `diversity` | Từ khóa giữa các cảnh có đa dạng không |
+| `visual_relevance` | Truy vấn ảnh có phản ánh đúng hình ảnh cần tìm không |
+| `searchability` | Truy vấn ảnh có khả năng cho ra kết quả stock tốt không |
+| `diversity` | Các truy vấn ảnh có đa dạng không |
+
+### 7. `video_search_generation`
+
+| Metric | Ý nghĩa |
+|---|---|
+| `visual_relevance` | Query video theo từng segment có phản ánh đúng cảnh cần tìm không |
+| `searchability` | Query video có đủ cụ thể để tìm stock footage tốt không |
+| `diversity` | Query giữa các segment có đa dạng không |
 
 ## Cấu hình chính
 
@@ -268,7 +279,8 @@ make eval-script
 make eval-stt
 make eval-stt-raw
 make eval-subtitle
-make eval-keyword
+make eval-image-search
+make eval-video-search
 ```
 
 `voice_splitting` hiện chưa có target `make` riêng. Có thể chạy bằng:
@@ -360,6 +372,31 @@ Một test case chuẩn có dạng:
 `stt_transcription`
 - nếu muốn chấm đúng artifact pipeline, nên để runner đi qua luồng voice/transcription/alignment của `BE`
 
+`image_search_generation`
+- `expected_output` nên có dạng:
+
+```json
+{
+  "image_queries": [
+    {"timestamp": 1.0, "query": "modern office"}
+  ]
+}
+```
+
+`video_search_generation`
+- `expected_output` nên có dạng:
+
+```json
+{
+  "video_segments": [
+    {
+      "time_range": [0.0, 4.5],
+      "queries": ["busy street", "delivery truck", "urban traffic"]
+    }
+  ]
+}
+```
+
 ### Điều không nên làm
 
 - không lưu `expected_metrics` kiểu số giả định trong dataset
@@ -375,7 +412,8 @@ Một test case chuẩn có dạng:
 | `stt_raw_transcription_test.json` | `stt_raw_transcription` | Chấm raw transcript |
 | `voice_splitting_test.json` | `voice_splitting` | Chấm split voice |
 | `subtitle_splitting_test.json` | `subtitle_splitting` | Chấm subtitle split |
-| `keyword_generation_test.json` | `keyword_generation` | Chấm keyword generation |
+| `image_search_generation_test.json` | `image_search_generation` | Chấm image search query generation |
+| `video_search_generation_test.json` | `video_search_generation` | Chấm video search segment generation |
 
 ## Tích hợp Langfuse
 
@@ -390,7 +428,8 @@ Tên dataset Langfuse hiện tại:
 - `jd_stt_raw_dataset`
 - `jd_voice_splitting_dataset`
 - `jd_subtitle_dataset`
-- `jd_keyword_dataset`
+- `jd_image_search_dataset`
+- `jd_video_search_dataset`
 
 Khi chạy `make eval`, hệ thống sẽ:
 1. tạo hoặc nạp dataset trên Langfuse

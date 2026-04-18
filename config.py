@@ -66,7 +66,8 @@ class Config:
         "STT_RAW": "stt_raw_transcription",
         "SENTENCE_SPLIT": "sentence_splitting",
         "SUBTITLE_SPLIT": "subtitle_splitting",
-        "KEYWORDS": "keyword_generation",
+        "IMAGE_SEARCH": "image_search_generation",
+        "VIDEO_SEARCH": "video_search_generation",
         "SPEED_ADJUST": "speed_adjustment",
         "ALIGNMENT": "alignment_process",
         "AUDIO_MERGE": "audio_merging",
@@ -104,6 +105,16 @@ class Config:
             "line_break_logic": 0.25,
         },
         "keyword_generation": {
+            "visual_relevance": 0.45,
+            "searchability": 0.3,
+            "diversity": 0.25,
+        },
+        "image_search_generation": {
+            "visual_relevance": 0.45,
+            "searchability": 0.3,
+            "diversity": 0.25,
+        },
+        "video_search_generation": {
             "visual_relevance": 0.45,
             "searchability": 0.3,
             "diversity": 0.25,

@@ -104,7 +104,9 @@ class DatasetLoader:
             "transcription": ["stt_transcription_test.json"],
             "voice_splitting": ["voice_splitting_test.json"],  # Use dedicated voice splitting dataset
             "subtitle_splitting": ["subtitle_splitting_test.json"],
-            "keyword_generation": ["keyword_generation_test.json"],
+            "keyword_generation": ["image_search_generation_test.json"],
+            "image_search_generation": ["image_search_generation_test.json"],
+            "video_search_generation": ["video_search_generation_test.json"],
         }
         
         filenames = stage_map.get(stage, [])

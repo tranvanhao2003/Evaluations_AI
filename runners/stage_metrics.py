@@ -36,6 +36,16 @@ STAGE_METRICS = {
         "visual_relevance",    # Image search accuracy
         "searchability",       # Stock library results
         "diversity"            # Keyword variety
+    ],
+    "image_search_generation": [
+        "visual_relevance",    # Image search accuracy
+        "searchability",       # Stock library results
+        "diversity"            # Keyword variety
+    ],
+    "video_search_generation": [
+        "visual_relevance",    # Image search accuracy
+        "searchability",       # Stock library results
+        "diversity"            # Keyword variety
     ]
 }
 

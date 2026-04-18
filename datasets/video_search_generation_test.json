@@ -1,0 +1,176 @@
+[
+  {
+    "id": "VID-T1-001",
+    "name": "Template 1 Video Search - AI Engineer",
+    "stage": "video_search_generation",
+    "input": {
+      "captions": [
+        {
+          "text": "Bạn có biết gì về RAG không?",
+          "start": 0.0,
+          "end": 2.5
+        },
+        {
+          "text": "RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn.",
+          "start": 2.5,
+          "end": 6.5
+        },
+        {
+          "text": "Chúng tôi đang tìm AI Engineer tại Hà Nội với lương tới năm mươi triệu.",
+          "start": 6.5,
+          "end": 10.8
+        }
+      ],
+      "job_category": "technology"
+    },
+    "metadata": {
+      "template_id": 1,
+      "category": "knowledge_sharing",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "ai_engineers",
+      "job_level": "senior",
+      "hook_type": "industry_knowledge",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "visual_relevance",
+      "searchability",
+      "diversity"
+    ],
+    "expected_output": {
+      "video_segments": [
+        {
+          "time_range": [0.0, 3.5],
+          "queries": ["AI office", "developer workspace", "tech professional"]
+        },
+        {
+          "time_range": [3.5, 7.0],
+          "queries": ["machine learning concept", "software engineer coding", "technology team meeting"]
+        },
+        {
+          "time_range": [7.0, 10.8],
+          "queries": ["AI engineer interview", "modern tech office", "professional developer"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VID-T2-002",
+    "name": "Template 2 Video Search - Marketing Manager",
+    "stage": "video_search_generation",
+    "input": {
+      "captions": [
+        {
+          "text": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó.",
+          "start": 0.0,
+          "end": 3.2
+        },
+        {
+          "text": "Công ty thường muốn người có kinh nghiệm thực tế.",
+          "start": 3.2,
+          "end": 6.1
+        },
+        {
+          "text": "Chúng tôi đang tìm Marketing Manager cho công ty fintech.",
+          "start": 6.1,
+          "end": 9.6
+        }
+      ],
+      "job_category": "fintech"
+    },
+    "metadata": {
+      "template_id": 3,
+      "category": "psychological_guide",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "marketers",
+      "job_level": "mid",
+      "hook_type": "problem_statement",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "visual_relevance",
+      "searchability",
+      "diversity"
+    ],
+    "expected_output": {
+      "video_segments": [
+        {
+          "time_range": [0.0, 3.0],
+          "queries": ["job search stress", "young professional thinking", "career planning office"]
+        },
+        {
+          "time_range": [3.0, 6.0],
+          "queries": ["business meeting", "professional experience", "office teamwork"]
+        },
+        {
+          "time_range": [6.0, 9.6],
+          "queries": ["marketing manager office", "fintech team", "corporate workplace"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VID-T3-003",
+    "name": "Template 3 Video Search - Fresh Graduate",
+    "stage": "video_search_generation",
+    "input": {
+      "captions": [
+        {
+          "text": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp.",
+          "start": 0.0,
+          "end": 4.8
+        },
+        {
+          "text": "Chúng tôi là công ty công nghệ hàng đầu.",
+          "start": 4.8,
+          "end": 6.9
+        },
+        {
+          "text": "Đang tuyển Fresh Graduate Software Engineer.",
+          "start": 6.9,
+          "end": 9.6
+        }
+      ],
+      "job_category": "technology"
+    },
+    "metadata": {
+      "template_id": 2,
+      "category": "storytelling",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "fresh_graduates",
+      "job_level": "entry",
+      "hook_type": "emotional_resonance",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v1"
+    },
+    "criteria": [
+      "visual_relevance",
+      "searchability",
+      "diversity"
+    ],
+    "expected_output": {
+      "video_segments": [
+        {
+          "time_range": [0.0, 3.5],
+          "queries": ["graduate student thinking", "career planning", "young person worried"]
+        },
+        {
+          "time_range": [3.5, 6.5],
+          "queries": ["technology company office", "software team", "modern workspace"]
+        },
+        {
+          "time_range": [6.5, 9.6],
+          "queries": ["fresh graduate developer", "junior software engineer", "entry level coding"]
+        }
+      ]
+    }
+  }
+]

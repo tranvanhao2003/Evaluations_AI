@@ -3,7 +3,7 @@
     "id": "TEMPLATE-001-KNOWLEDGE",
     "name": "Template 1: Chia Sẻ Kiến Thức (Knowledge Sharing)",
     "stage": "script_generation",
-    "input": "Tuyển AI Engineer tại Hà Nội. Lương 40-50 triệu/tháng. Chuyên về Retrieval Augmented Generation (RAG). Phúc lợi: làm chủ công nghệ mới, review lương 2 lần/năm, bảo hiểm premium cho gia đình.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 1,
       "be_template_name": "Chia sẻ kiến thức",
@@ -20,13 +20,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn có biết gì về RAG không? RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn. Chúng tôi là công ty tập trung vào mảng này và đang tìm AI Engineer tại Hà Nội với lương tới bốn mươi đến năm mươi triệu. Tại đây bạn được làm chủ công nghệ mới nhất, review lương hai lần mỗi năm và bảo hiểm premium cho cả gia đình. Đã có hơn năm mươi ứng viên quan tâm trong tuần vừa rồi. Nếu tự tin, inbox ngay để nhận JD chi tiết nhé!"
+    "expected_output": "Bạn có biết việc nắm rõ bản đồ giao thông là chìa khóa vàng để tối ưu hóa lộ trình vận chuyển, tiết kiệm nhiên liệu và tránh tắc đường? Công ty của chúng tôi đang tìm kiếm Tài xế giao hàng có bằng B2 tại Hà Nội, lương từ mười hai đến mười bốn triệu đồng một tháng, có bảo hiểm đầy đủ. Tại đây, bạn được phân chia tuyến đường rõ ràng, môi trường làm việc an toàn và được thưởng theo khối lượng hoàn thành. Đã có hơn 10 tài xế đều đặn làm việc và gắn bó lâu dài với đội ngũ của chúng tôi. Nếu bạn yêu cầu sự ổn định và được trả công xứng đáng, hãy inbox ngay để nhận thông tin chi tiết!"
   },
   {
     "id": "TEMPLATE-003-PSYCHOLOGY",
     "name": "Template 3: Dẫn Dắt Tâm Lý (Psychological Guide)",
     "stage": "script_generation",
-    "input": "Tuyển Marketing Manager tại Hà Nội. Lương 30-40 triệu. Công ty fintech, 50+ nhân viên. Phúc lợi: BHXH đầy đủ, du lịch team, thưởng KPI, làm việc flexible. Vấn đề: Marketing hiện tại khó tìm người có kinh nghiệm thực tế.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 3,
       "be_template_name": "Dẫn dắt tâm lý",
@@ -43,13 +43,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó, vì công ty thường muốn người có kinh nghiệm thực tế. Anh đang tìm Marketing Manager cho công ty fintech tại Hà Nội với lương ba mươi đến bốn mươi triệu. Tại đây bạn sẽ có bảo hiểm xã hội đầy đủ, du lịch team, thưởng theo KPI, và làm việc flexible hơn. Hơn hai mươi ứng viên đã inbox, chỗ trống còn rất ít nên đừng để lỡ, đăng ký ngay hôm nay nhé!"
+    "expected_output": "Các công ty giao hàng ở Hà Nội thường xuyên bị thiếu nhân sự xe tải, dẫn đến đơn hàng không giao đúng hạn, làm giảm uy tín nghiêm trọng. Anh đang tìm kiếm tài xế xe tải giao nhận cho công ty tại Hà Nội. Vị trí cần nam sinh 1990-2000, bằng lái B2, mức lương hấp dẫn lên đến mười bốn triệu. Tại đây, bạn sẽ có được 3 lợi ích vượt trội: Thứ nhất, môi trường an toàn với phụ tùng xe kiểm định định kỳ. Thứ hai, lộ trình vượt trội giúp bạn lên lương nhanh chóng. Thứ ba, chính sách thưởng nóng và bảo hiểm đầy đủ. Hơn 20 ứng viên đã bắt đầu inbox, chỗ trống còn rất ít nên đừng để lỡ cơ hội, đăng ký ngay hôm nay nhé!"
   },
   {
     "id": "TEMPLATE-002-STORYTELLING",
     "name": "Template 2: Storytelling (Kể Chuyện)",
     "stage": "script_generation",
-    "input": "Tuyển Fresh Graduate Software Engineer. Lương 7 triệu/tháng. Công ty tech hàng đầu. Phúc lợi: mentorship, đào tạo kỹ năng mềm, môi trường thoải mái, 40+ CV trong tháng.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 2,
       "be_template_name": "Kể chuyện đánh lừa",
@@ -66,13 +66,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp. Chúng tôi là công ty công nghệ hàng đầu, đang tuyển Fresh Graduate Software Engineer. Bạn sẽ được mentor từ các senior engineer, lương bảy triệu, được đào tạo kỹ năng mềm, và có môi trường làm việc thoải mái. Chúng tôi đã nhận được bốn mươi hơn CV trong tháng này. Nếu muốn bước chân vào ngành công nghệ, hãy gửi CV cho chúng tôi ngay hôm nay!"
+    "expected_output": "Bữa rồi đi đường thấy có bác tài xe tải ở trạm dừng nghỉ, mặt xanh xao, tái nhợt vì thiếu ngủ do chạy đường dài. Mình thấy thực sự thương, tất cả cũng chỉ vì miếng ăn, manh áo. Tuy nhiên để không phải loay hoay với áp lực này thì bên mình đang tuyển vị trí Tài xế giao nhận hàng tại MBW với thu nhập từ mười hai đến mười bốn triệu mỗi tháng. Làm giờ hành chính, ở đây vừa được khám sức khỏe định kỳ, được thưởng nóng theo số chuyến. Hiện đã có hơn 15 anh em lái xe nộp hồ sơ ứng tuyển cho vị trí này, bạn nào nhanh tay thì nhắn tin mình gửi link apply liền nhé!"
   },
   {
     "id": "TEMPLATE-004-PROFESSION",
     "name": "Template 4: Giải Quyết Vấn Đề (Professional Challenges)",
     "stage": "script_generation",
-    "input": "Tuyển Backend Developer. Lương 40-50 triệu. Công ty fintech. Phúc lợi: BHXH đầy đủ, thưởng KPI, du lịch team 2 lần/năm, flexible. 45+ CV đã inbox.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 4,
       "be_template_name": "Khó khăn nghề nghiệp",
@@ -89,13 +89,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn lo lắng về lương và phúc lợi khi đi làm? Công ty chúng tôi cam kết trả lương cạnh tranh thị trường. Chúng tôi là công ty fintech tìm Backend Developer tại Hà Nội, lương bốn mươi đến năm mươi triệu, bảo hiểm đầy đủ, thưởng theo KPI, du lịch team hai lần mỗi năm. Bạn sẽ học được công nghệ mới nhất và làm việc với team chuyên nghiệp. Đã có bốn mươi lăm ứng viên quan tâm. Đừng bỏ lỡ cơ hội này, liên hệ ngay hôm nay!"
+    "expected_output": "Làm lái xe tải mà suốt ngày chạy đêm, xe hỏng phải tự sửa, về nhà chỉ có cơm nguội lạnh mà không ai quan tâm sức khỏe. Nhưng làm cho chúng tôi khác, bạn chỉ làm giờ hành chính, thu nhập ổn định 14 triệu có cả BHXH, khám sức khỏe và đào tạo nghiệp vụ trọn đời. Ưu tiên bằng B2 am hiểu địa hình Bắc Bộ từ 24 đến 34 tuổi, inbox ngay để giữ chỗ trước vòng cuối."
   },
   {
     "id": "TEMPLATE-005-INSPIRATION",
     "name": "Template 5: Khuyến Khích (Inspirational Call)",
     "stage": "script_generation",
-    "input": "Tuyển UI/UX Designer. Lương 30-40 triệu. Startup Digital Marketing. Phúc lợi: tự do sáng tạo, projects lớn, mentorship, MacBook cấp. 55+ CV đã inbox.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 5,
       "be_template_name": "Pain point nổi bật",
@@ -112,13 +112,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn là Designer tìm công việc đam mê? Công ty chúng tôi là một startup về Digital Marketing, đang tuyển UI UX Designer tại Hà Nội với lương ba mươi đến bốn mươi triệu. Tại đây bạn được tự do sáng tạo, làm việc với các project lớn, có mentorship từ lead designer, và được cấp MacBook. Năm mươi lăm ứng viên đã bày tỏ sự quan tâm. Đây là thời điểm vàng để bạn phát triển kỹ năng. Hãy nộp hồ sơ ngay để không bị mất chỗ nhé!"
+    "expected_output": "Lái xe miễn phí nhiên liệu, đồng phục chất lượng cao và bảng lương hấp dẫn lên đến mười bốn triệu mỗi tháng chính là minh chứng cho sự thành công cùng công ty chúng tôi. Chào bạn đến với vị trí lái xe tải tại Hà Nội, dành riêng cho nam sinh 1990-2000. Bạn sẽ được lái xe với lộ trình ổn định tránh tắc đường và môi trường làm việc tôn trọng nghề nghiệp, xứng đáng với những năm tháng cống hiến của bạn. Hiện đã có hơn 25 anh em nổ máy nộp hồ sơ. Hãy comment ngay hoặc inbox để nhận chi tiết công việc nhé!"
   },
   {
     "id": "TEMPLATE-006-URGENCY",
     "name": "Template 6: Tạo Cấp Bách (Urgency Creation)",
     "stage": "script_generation",
-    "input": "Tuyển Sales Manager. Lương 35-45 triệu. Công ty bán hàng thế mạnh. Phúc lợi: thưởng cao, cơ hội thăng tiến, team support. Hạn nộp 3 ngày.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 6,
       "be_template_name": "Fast Hire Now (Urgent)",
@@ -135,13 +135,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Đừng bỏ lỡ cơ hội tuyển dụng Sales Manager tại công ty bán hàng thế mạnh! Chúng tôi đang tìm kiếm một người có kinh nghiệm và đam mê bán hàng. Vị trí này cung cấp mức lương ba mươi năm đến bốn mươi năm triệu, thưởng cao dựa trên hiệu suất, cơ hội thăng tiến rõ ràng, và hỗ trợ từ một team chuyên nghiệp. Chúng tôi chỉ nhận đơn trong ba ngày tới, nên hãy đăng ký ngay hôm nay!"
+    "expected_output": "Dừng lại đây ngay và nghe hết nếu bạn có bằng B2 và sinh năm 1990-2000! Chỉ còn đúng 3 suất cuối cùng cho vị trí Lái xe tải giao nhận tại Hà Nội với mức lương mười hai đến mười bốn triệu đồng mỗi tháng! Chúng tôi cần gấp Nam giới, thông thạo địa hình phía Bắc, làm việc ngay không cần chờ đợi, nhận thưởng nóng sau 1 tuần đầu, và hỗ trợ hồ sơ 10 phút. Đã có 7 bạn nộp hồ sơ trong giờ qua, suất còn lại không còn nhiều! Nhấn link ngay hoặc inbox cho mình ngay lúc này, chúng ta phỏng vấn luôn trong thời gian sớm nhất để bạn có thể bắt đầu công việc của mình!"
   },
   {
     "id": "TEMPLATE-007-BENEFIT",
     "name": "Template 7: Tập Trung Lợi Ích (Benefit Focus)",
     "stage": "script_generation",
-    "input": "Tuyển HR Manager. Lương 28-35 triệu. Công ty BĐS. Phúc lợi: phát triển leadership, du lịch quốc tế, bảo hiểm toàn diện, làm việc hybrid.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 7,
       "be_template_name": "Top 3 lý do",
@@ -158,13 +158,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn muốn phát triển kỹ năng leadership và làm việc trong môi trường chuyên nghiệp? Công ty bất động sản chúng tôi đang tuyển HR Manager với mức lương hai mươi tám đến ba mươi năm triệu. Bạn sẽ có cơ hội phát triển leadership, tham gia du lịch quốc tế, được bảo hiểm toàn diện, và làm việc trong chế độ hybrid linh hoạt. Hơn ba mươi ứng viên đã quan tâm. Nếu muốn bước vào vai trò này, hãy gửi CV ngay hôm nay!"
+    "expected_output": "Bạn có muốn lái xe tải mà không phải lo lắng về thời gian hay chính sách hỗ trợ không? Công ty tôi đang cần tìm Nam sinh 1990-2000, bằng B2 trở lên, thu nhập ổn định từ mười hai đến mười bốn triệu đồng. Thứ nhất, bạn được đảm bảo lộ trình ổn định, thứ hai, chế độ hậu lượng đầy đủ, thứ ba môi trường làm việc chuyên nghiệp, trách nhiệm cao. Ngày nay đã có hơn 15 anh em cùng nộp hồ sơ ứng tuyển. Đừng bỏ lỡ cơ hội, inbox ngay hôm nay để nhận tin phỏng vấn chi tiết nhé!"
   },
   {
     "id": "TEMPLATE-008-EXPERIENCE",
     "name": "Template 8: Kinh Nghiệm Yêu Cầu (Experience Highlight)",
     "stage": "script_generation",
-    "input": "Tuyển Senior Architect. Lương 60-80 triệu. Công ty tech. Phúc lợi: ESOP, stock options, tự do kỹ thuật, team toàn star. 20+ CV inbox.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 8,
       "be_template_name": "Q&A / Giải đáp thắc mắc",
@@ -181,13 +181,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn đã có kinh nghiệm 5+ năm làm architect và muốn tiếp tục phát triển sự nghiệp ở một công ty tech hàng đầu? Chúng tôi đang tuyển Senior Architect với mức lương từ sáu mươi đến tám mươi triệu. Bạn sẽ được sở hữu cổ phần qua ESOP, có stock options, tự do lựa chọn công nghệ, và làm việc cùng những engineer xuất sắc nhất. Chúng tôi đã có hơn hai mươi ứng viên quan tâm. Nếu bạn tự tin về kỹ năng của mình, hãy liên hệ ngay!"
+    "expected_output": "Có bạn nào hỏi mình không cần kinh nghiệm lại làm việc này được không? Vị trí Giao nhận hàng hóa tại công ty chúng tôi đang cần Nam sinh năm 1990-2000, bằng B2, lương ổn định từ mười hai đến mười bốn triệu đồng. Bạn yên tâm, chúng mình hỗ trợ đào tạo các kỹ năng cơ bản, hỗ trợ phương tiện và có chính sách thưởng gắn bó dài hạn. Đã có hơn 10 bạn ứng tuyển, chứng tỏ đây là cơ hội tuyệt vời cho các tài xế tiềm năng. Nếu bạn yêu thích sự ổn định và trung thực, hãy nhanh tay inbox mình ngay để nhận thông tin chi tiết kẻo lỡ suất nhé!"
   },
   {
     "id": "TEMPLATE-009-COMMUNITY",
     "name": "Template 9: Cộng Đồng & Culture (Community Focus)",
     "stage": "script_generation",
-    "input": "Tuyển Developer Community Manager. Lương 20-25 triệu. Startup tech. Phúc lợi: learning budget, flexible hours, team đa quốc gia, startup energy.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 9,
       "be_template_name": "Vlog cá nhân",
@@ -204,13 +204,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn có đam mê xây dựng cộng đồng developer và muốn làm việc trong một startup trẻ năng động? Công ty tech chúng tôi đang tuyển Developer Community Manager với lương hai mươi đến hai mươi năm triệu. Tại đây bạn sẽ có budget học tập linh hoạt, giờ làm việc mềm dẻo, làm việc với team từ nhiều quốc gia khác nhau, và cảm nhận năng lượng startup thực sự. Năm mươi ứng viên đã quan tâm. Nếu muốn trở thành một phần của cộng đồng này, hãy nộp đơn ngay hôm nay!"
+    "expected_output": "Chào mấy anh, mấy bạn năm từ chín mươi đến hai k, lại là Trang đây! Các bạn đã bao giờ mơ ước có một việc làm ổn định, lương cứng và được thong dong trên các nẻo đường mỗi ngày chưa? Đây chính là vị trí Lái xe giao nhận tại công ty vận tải lớn, thu nhập từ mười hai đến mười bốn triệu đồng cao hơn mức lương thông thường mà hầu hết các bạn đều quan tâm. Mấy bạn sẽ được hưởng chế độ bảo hiểm đầy đủ, môi trường làm việc thoải mái và cơ hội tăng lương nhanh chóng nếu hoàn thành tốt chỉ tiêu hàng tháng. Vị trí này đã có hơn 20 anh trai nộp hồ sơ rồi, nhưng em tin chắc rằng với kỹ năng thông thạo đường đi mà mấy bạn có thì sẽ rất phù hợp. Nhanh tay comment ngay cho Trang hoặc inbox để nhận JD và được tư vấn lộ trình phỏng vấn miễn phí nhé!"
   },
   {
     "id": "TEMPLATE-010-GROWTH",
     "name": "Template 10: Tăng Trưởng Nghề Nghiệp (Career Growth)",
     "stage": "script_generation",
-    "input": "Tuyển Product Manager. Lương 35-50 triệu. Startup unicorn. Phúc lợi: cơ hội scaled, mentor từ best founders, equity, learning budget lớn.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 10,
       "be_template_name": "POV: Một ngày đi làm",
@@ -227,13 +227,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn muốn tăng trưởng sự nghiệp Product Manager ở một startup unicorn? Chúng tôi đang tuyển Product Manager với mức lương ba mươi năm đến năm mươi triệu. Bạn sẽ có cơ hội làm việc trên các sản phẩm quy mô lớn, được mentor từ những founder giỏi nhất, nhận equity của công ty, và có budget học tập lớn. Chúng tôi cần một người có tầm nhìn và khả năng thực thi cao. Nếu bạn sẵn sàng, hãy nộp hồ sơ ngay!"
+    "expected_output": "Bắt đầu một ngày mới, mình mở chiếc xe tải hạng B2 ra và khởi động máy! Mình là nhân viên giao hàng chuyên chở hàng hóa đến khắp 12 quận Hà Nội và các tỉnh phía Bắc. Anh chị em Nam sinh 90-2000, có bằng B2 trở lên và tinh thần trách nhiệm cao đều đăng ký tham gia ngay! Tại sao nên giới thiệu bạn bè nhanh tay? Thứ nhất là thu nhập ổn định lên đến mười bốn triệu đồng, thứ hai là lộ trình làm việc rõ ràng, thứ ba là cơ hội thăng tiến bền vững cùng đơn vị. Hiện tại đã có hơn 15 anh em nộp hồ sơ và chỉ còn năm suất cuối cùng. Hãy liên hệ ngay để đi làm luôn nhé!"
   },
   {
     "id": "TEMPLATE-011-IMPACT",
     "name": "Template 11: Tạo Ảnh Hưởng (Impact Driven)",
     "stage": "script_generation",
-    "input": "Tuyển Data Scientist. Lương 45-60 triệu. Công ty AI. Phúc lợi: công bố bài báo, hợp tác research, GPU power, flexible work.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 11,
       "be_template_name": "ShortJD Voice Master",
@@ -250,13 +250,13 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn có đam mê sử dụng AI và Machine Learning để tạo ảnh hưởng tích cực? Công ty AI chúng tôi đang tuyển Data Scientist với mức lương bốn mươi năm đến sáu mươi triệu. Bạn sẽ có cơ hội công bố các bài báo khoa học, hợp tác với các nhà nghiên cứu hàng đầu, sử dụng GPU power mạnh mẽ, và làm việc linh hoạt. Chúng tôi đang tìm một người có khả năng research sâu và biết cách áp dụng vào thực tế. Nếu đây là bạn, hãy liên hệ ngay!"
+    "expected_output": "Công ty chúng tôi đang tìm đồng đội lái xe tải! Bạn cần có bằng lái hạng B2 và kinh nghiệm ít nhất một năm. Nhận thu nhập từ mười hai đến mười bốn triệu đồng mỗi tháng cùng nhiều phúc lợi hấp dẫn. Hãy gửi hồ sơ ngay hôm nay để gia nhập đội ngũ của chúng tôi!"
   },
   {
     "id": "TEMPLATE-012-BALANCE",
     "name": "Template 12: Work-Life Balance (Well-being Focus)",
     "stage": "script_generation",
-    "input": "Tuyển QA Engineer. Lương 20-28 triệu. Công ty tech. Phúc lợi: 5-day work week, gym subsidy, mental health support, WFH 3 days/week.",
+    "input": "Mô tả công việc: - Nhận công việc từ Bộ phận điều hành điều phối/ Đội trưởng và chuẩn bị phương tiện, dụng cụ làm việc; - Đối kiểm số lượng, tình trạng hàng hóa theo đúng thông tin trên bảng kê giao nhận và ký xác nhận; - Kiểm tra, đảm bảo phương tiện trong điều kiện tốt và vận hành an toàn để phục vụ công việc; Thực hiện giao, nhận đúng hành trình đã được xác định; - Phối hợp với các điểm giao/nhận và khách hàng để xử lý những trường hợp phát sinh như vỡ, hỏng hàng hóa theo quy định; - Thực hiện các công việc khác theo phân công của Ban lãnh đạo. Yêu cầu ứng viên: 1- Trình độ: - Yêu cầu bằng lái xe hạng B2 trở lên 2- Độ tuổi: Nam giới sinh năm 1990 - 2000 3- Kỹ năng: - Ưu tiên ứng viên có kinh nghiệm từ 1 năm lái xe tải giao/nhận hàng hóa, thông thạo đường Hà Nội và các tỉnh phía Bắc. 4- Yêu cầu khác: - Mong muốn gắn bó công việc lâu dài; - Có thái độ làm việc tốt và trách nhiệm cao đối với công việc; - Sức khỏe tốt, cẩn thận, trung thực. Quyền lợi: Thu nhập: 12.000.000 – 14.000.000 đồng/tháng; (lái xe chủ yếu giao giờ hành chính, làm thêm có tính công làm thêm) Được thưởng năm, các dịp Lễ Tết và các chế độ phúc lợi khác hàng năm theo quy định của Tổng Công ty; Tham gia đầy đủ BHXH, BHYT, BHTN theo luật và quy định công ty. Tham gia khám sức khỏe định kỳ Có cơ hội tham gia các khóa học chuyên sâu về nghiệp vụ; Công việc ổn định lâu dài, môi trường công việc năng động, thân thiện và hoà đồng.",
     "metadata": {
       "template_id": 12,
       "be_template_name": "Thông báo truy tìm",
@@ -273,6 +273,6 @@
       "tone_of_voice",
       "length_constraint"
     ],
-    "expected_output": "Bạn tìm một công việc QA Engineer với cân bằng cuộc sống tốt? Công ty tech chúng tôi đang tuyển QA Engineer với lương hai mươi đến hai mươi tám triệu. Chúng tôi cam kết làm việc năm ngày/tuần, hỗ trợ gym, chăm sóc sức khỏe tâm thần, và cho phép làm việc từ xa ba ngày trong tuần. Chúng tôi tin rằng một lợi ích tốt sẽ tạo ra một team hạnh phúc và hiệu quả. Nếu bạn đang tìm một công ty quan tâm đến sức khỏe của bạn, hãy nộp đơn ngay!"
+    "expected_output": "Thông báo khẩn cấp: Nhiều tài xế chuyên nghiệp đang bị thất lạc và chưa tìm thấy cơ hội xứng đáng tại công ty chúng tôi. Chúng tôi đang truy tìm ứng viên cho vị trí Lái xe giao nhận hàng hóa, với mức thu nhập từ mười hai đến mười bốn triệu đồng mỗi tháng, giao hàng tại Hà Nội và các tỉnh phía Bắc. Tin vui là cơ hội vẫn còn chờ đón bạn: Bạn sẽ có một công việc ổn định, môi trường làm việc thân thiện cùng các chế độ phúc lợi hấp dẫn và thưởng lễ Tết hàng năm. Hãy cẩn thận, các tài xế xuất sắc khác đã nhanh chóng tìm thấy đường trở về, chỉ còn vài suất cho những ai thực sự nghiêm túc. Hãy tự thú ngay bằng cách inbox để nhận chỉ dẫn an toàn trở về với vị trí xứng đáng!"
   }
 ]

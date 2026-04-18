@@ -1,0 +1,146 @@
+[
+  {
+    "id": "IMG-T1-001",
+    "name": "Template 1 Image Search - AI Engineer",
+    "stage": "image_search_generation",
+    "input": {
+      "captions": [
+        {
+          "text": "Bạn có biết gì về RAG không? RAG là viết tắt của Retrieval Augmented Generation, một kỹ thuật giúp AI truy xuất thông tin chính xác hơn.",
+          "start": 0,
+          "end": 10.8
+        }
+      ],
+      "job_category": "technology"
+    },
+    "metadata": {
+      "template_id": 1,
+      "category": "knowledge_sharing",
+      "difficulty": "medium",
+      "industry": "technology",
+      "target_audience": "ai_engineers",
+      "job_level": "senior",
+      "hook_type": "industry_knowledge",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v2"
+    },
+    "criteria": [
+      "visual_relevance",
+      "searchability",
+      "diversity"
+    ],
+    "expected_output": {
+      "keywords": [
+        "AI engineer working on laptop",
+        "machine learning team meeting",
+        "developer in modern tech office",
+        "artificial intelligence workspace",
+        "software engineer coding at desk"
+      ],
+      "image_queries": [
+        {"timestamp": 1.0, "query": "AI engineer laptop"},
+        {"timestamp": 3.2, "query": "machine learning meeting"},
+        {"timestamp": 5.1, "query": "modern tech office"},
+        {"timestamp": 7.4, "query": "artificial intelligence workspace"},
+        {"timestamp": 9.1, "query": "software engineer coding"}
+      ]
+    }
+  },
+  {
+    "id": "IMG-T2-002",
+    "name": "Template 2 Image Search - Marketing Manager",
+    "stage": "image_search_generation",
+    "input": {
+      "captions": [
+        {
+          "text": "Với bằng cấp marketing mà bạn tìm công việc ổn định lại khó, vì công ty thường muốn người có kinh nghiệm thực tế.",
+          "start": 0,
+          "end": 9.6
+        }
+      ],
+      "job_category": "fintech"
+    },
+    "metadata": {
+      "template_id": 3,
+      "category": "psychological_guide",
+      "difficulty": "medium",
+      "industry": "fintech",
+      "target_audience": "marketers",
+      "job_level": "mid",
+      "hook_type": "problem_statement",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v2"
+    },
+    "criteria": [
+      "visual_relevance",
+      "searchability",
+      "diversity"
+    ],
+    "expected_output": {
+      "keywords": [
+        "marketing manager in office",
+        "professional business meeting",
+        "fintech marketing team",
+        "corporate discussion at workplace",
+        "marketing professional presentation"
+      ],
+      "image_queries": [
+        {"timestamp": 1.1, "query": "marketing manager office"},
+        {"timestamp": 3.0, "query": "business meeting team"},
+        {"timestamp": 4.8, "query": "fintech marketing team"},
+        {"timestamp": 6.7, "query": "corporate office discussion"},
+        {"timestamp": 8.5, "query": "marketing presentation workplace"}
+      ]
+    }
+  },
+  {
+    "id": "IMG-T3-003",
+    "name": "Template 3 Image Search - Fresh Graduate",
+    "stage": "image_search_generation",
+    "input": {
+      "captions": [
+        {
+          "text": "Bạn sắp tốt nghiệp đại học nhưng còn lúng túng về hướng đi sự nghiệp. Chúng tôi là công ty công nghệ hàng đầu.",
+          "start": 0,
+          "end": 9.6
+        }
+      ],
+      "job_category": "technology"
+    },
+    "metadata": {
+      "template_id": 2,
+      "category": "storytelling",
+      "difficulty": "easy",
+      "industry": "technology",
+      "target_audience": "fresh_graduates",
+      "job_level": "entry",
+      "hook_type": "emotional_resonance",
+      "dataset_type": "api_contract",
+      "source": "synthetic",
+      "version": "v2"
+    },
+    "criteria": [
+      "visual_relevance",
+      "searchability",
+      "diversity"
+    ],
+    "expected_output": {
+      "keywords": [
+        "fresh graduate job interview",
+        "young software engineer office",
+        "entry level developer workspace",
+        "graduate starting tech career",
+        "junior engineer at computer"
+      ],
+      "image_queries": [
+        {"timestamp": 1.0, "query": "fresh graduate interview"},
+        {"timestamp": 2.8, "query": "young software engineer"},
+        {"timestamp": 4.9, "query": "entry level developer"},
+        {"timestamp": 6.8, "query": "graduate tech career"},
+        {"timestamp": 8.7, "query": "junior engineer computer"}
+      ]
+    }
+  }
+]

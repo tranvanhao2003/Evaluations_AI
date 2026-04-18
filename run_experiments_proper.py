@@ -120,14 +120,15 @@ async def main():
     
     runner = LangfuseExperimentRunner()
     
-    # Define experiments - 6 stages as per user's requirements
+    # Define experiments - full active evaluation suite
     experiments = [
         ("jd_script_dataset", "script_generation"),
         ("jd_stt_dataset", "stt_transcription"),
         ("jd_stt_raw_dataset", "stt_raw_transcription"),
         ("jd_voice_splitting_dataset", "voice_splitting"),  # NEW: Voice splitting stage
         ("jd_subtitle_dataset", "subtitle_splitting"),
-        ("jd_keyword_dataset", "keyword_generation"),
+        ("jd_image_search_dataset", "image_search_generation"),
+        ("jd_video_search_dataset", "video_search_generation"),
     ]
     
     print("\n🚀 Running Langfuse Experiments with run_experiment()\n")

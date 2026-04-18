@@ -17,8 +17,39 @@ def _extract_keywords(output_data):
         keywords = output_data.get("keywords")
         if isinstance(keywords, list):
             return [str(k).strip() for k in keywords if str(k).strip()]
+        video_segments = output_data.get("video_segments")
+        if isinstance(video_segments, list):
+            extracted = []
+            for segment in video_segments:
+                if not isinstance(segment, dict):
+                    continue
+                queries = segment.get("queries")
+                if isinstance(queries, list):
+                    extracted.extend(str(query).strip() for query in queries if str(query).strip())
+            if extracted:
+                return extracted
+        image_queries = output_data.get("image_queries")
+        if isinstance(image_queries, list):
+            extracted = []
+            for item in image_queries:
+                if isinstance(item, dict):
+                    query = item.get("query")
+                    if isinstance(query, str) and query.strip():
+                        extracted.append(query.strip())
+            if extracted:
+                return extracted
     if isinstance(output_data, list):
-        return [str(k).strip() for k in output_data if str(k).strip()]
+        extracted = []
+        for item in output_data:
+            if isinstance(item, dict):
+                query = item.get("query")
+                if isinstance(query, str) and query.strip():
+                    extracted.append(query.strip())
+            else:
+                text = str(item).strip()
+                if text:
+                    extracted.append(text)
+        return extracted
     return []
 
 
@@ -51,6 +82,27 @@ def _extract_keyword_context(input_data: str, kwargs) -> str:
         ref_keywords = expected_output.get("keywords")
         if isinstance(ref_keywords, list) and ref_keywords:
             lines.append("Keyword kỳ vọng/reference: " + ", ".join(str(item) for item in ref_keywords[:10]))
+        ref_queries = expected_output.get("image_queries")
+        if isinstance(ref_queries, list) and ref_queries:
+            rendered_queries = []
+            for item in ref_queries[:10]:
+                if isinstance(item, dict):
+                    query = item.get("query")
+                    if isinstance(query, str) and query.strip():
+                        rendered_queries.append(query.strip())
+            if rendered_queries:
+                lines.append("Image query kỳ vọng/reference: " + ", ".join(rendered_queries))
+        ref_video_segments = expected_output.get("video_segments")
+        if isinstance(ref_video_segments, list) and ref_video_segments:
+            rendered_video_queries = []
+            for segment in ref_video_segments[:10]:
+                if not isinstance(segment, dict):
+                    continue
+                queries = segment.get("queries")
+                if isinstance(queries, list):
+                    rendered_video_queries.extend(str(query).strip() for query in queries[:3] if str(query).strip())
+            if rendered_video_queries:
+                lines.append("Video query kỳ vọng/reference: " + ", ".join(rendered_video_queries[:10]))
     test_case = kwargs.get("test_case")
     metadata = getattr(test_case, "metadata", None) if test_case else None
     if isinstance(metadata, dict):
@@ -67,15 +119,15 @@ def _extract_keyword_context(input_data: str, kwargs) -> str:
 
 
 class KeywordRelevanceEvaluator(LLMJudgeEvaluator):
-    """LLM judge: Kiểm tra độ liên quan hình ảnh của bộ keyword"""
+    """LLM judge: Kiểm tra độ liên quan visual của bộ query/search term"""
 
-    def __init__(self):
-        super().__init__("visual_relevance", "keyword_generation", Config.OPENAI_MODEL)
+    def __init__(self, stage_name: str = "keyword_generation"):
+        super().__init__("visual_relevance", stage_name, Config.OPENAI_MODEL)
 
     def build_prompt(self, input_data: str, output_data: list, **kwargs) -> str:
         keyword_lines = "\n".join(f"- {keyword}" for keyword in output_data)
         context = _extract_keyword_context(input_data, kwargs)
-        return f"""Bạn là reviewer chấm chất lượng bộ từ khóa tìm stock image cho video tuyển dụng.
+        return f"""Bạn là reviewer chấm chất lượng bộ query tìm stock visual cho video tuyển dụng.
 
                 CONTEXT:
                 {context}
@@ -88,10 +140,10 @@ class KeywordRelevanceEvaluator(LLMJudgeEvaluator):
                 Không chấm searchability/trending volume.
 
                 Tiêu chí đánh giá:
-                1. Keyword có gợi ra đúng chủ thể/hành động/bối cảnh hình ảnh cần tìm từ caption không.
-                2. Keyword có đủ cụ thể để sinh ra hình ảnh tuyển dụng đúng ngữ cảnh, thay vì quá chung chung.
+                1. Query có gợi ra đúng chủ thể/hành động/bối cảnh visual cần tìm từ caption không.
+                2. Query có đủ cụ thể để sinh ra hình ảnh hoặc footage đúng ngữ cảnh tuyển dụng, thay vì quá chung chung.
                 3. Ưu tiên keyword mô tả được vai trò nghề nghiệp, môi trường làm việc, công nghệ hoặc bối cảnh liên quan.
-                4. Phạt nếu keyword lệch ý, quá abstract, hoặc không giúp chọn được visual đúng.
+                4. Phạt nếu query lệch ý, quá abstract, hoặc không giúp chọn được visual đúng.
 
                 Rubric 1-5:
                 1 = Phần lớn keyword lệch ngữ cảnh hoặc không thể đại diện đúng visual cần tìm.
@@ -150,8 +202,8 @@ class KeywordRelevanceEvaluator(LLMJudgeEvaluator):
 class SearchabilityEvaluator(DeterministicEvaluator):
     """Đánh giá khả năng tìm kiếm của keyword trên stock library"""
 
-    def __init__(self):
-        super().__init__("searchability", "keyword_generation")
+    def __init__(self, stage_name: str = "keyword_generation"):
+        super().__init__("searchability", stage_name)
 
     def evaluate(self, input_data: str, output_data: dict, **kwargs) -> MetricScore:
         threshold = Config.get_threshold(self.metric_name)
@@ -194,8 +246,8 @@ class SearchabilityEvaluator(DeterministicEvaluator):
 class KeywordDiversityEvaluator(DeterministicEvaluator):
     """Đánh giá độ đa dạng từ khóa giữa các cảnh"""
 
-    def __init__(self):
-        super().__init__("diversity", "keyword_generation")
+    def __init__(self, stage_name: str = "keyword_generation"):
+        super().__init__("diversity", stage_name)
 
     def evaluate(self, input_data: str, output_data: dict, **kwargs) -> MetricScore:
         threshold = Config.get_threshold(self.metric_name)

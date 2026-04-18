@@ -95,6 +95,16 @@ class EvaluationRunner:
             "searchability": SearchabilityEvaluator(),
             "diversity": KeywordDiversityEvaluator(),
         }
+        self.image_search_evaluators = {
+            "visual_relevance": KeywordRelevanceEvaluator("image_search_generation"),
+            "searchability": SearchabilityEvaluator("image_search_generation"),
+            "diversity": KeywordDiversityEvaluator("image_search_generation"),
+        }
+        self.video_search_evaluators = {
+            "visual_relevance": KeywordRelevanceEvaluator("video_search_generation"),
+            "searchability": SearchabilityEvaluator("video_search_generation"),
+            "diversity": KeywordDiversityEvaluator("video_search_generation"),
+        }
 
     @staticmethod
     def _clamp_score(value: Any) -> float:
@@ -286,6 +296,10 @@ class EvaluationRunner:
             return self.backend.split_subtitles(**args)
         elif tool_name == "generate_keywords":
             return self.backend.generate_keywords(**args)
+        elif tool_name == "generate_image_queries":
+            return self.backend.generate_image_queries(**args)
+        elif tool_name == "generate_video_segments":
+            return self.backend.generate_video_segments(**args)
         else:
             return {"status": "unknown"}
 
@@ -411,7 +425,7 @@ class EvaluationRunner:
                     word_timings = raw_word_timings
             return self.backend.split_subtitles(text=subtitle_text, word_timings=word_timings)
 
-        if stage == "keyword_generation":
+        if stage in ("keyword_generation", "image_search_generation"):
             text = self._extract_text_from_turn_content(turn_content)
             captions = None
             job_category = "recruitment"
@@ -422,7 +436,24 @@ class EvaluationRunner:
                 job_val = parsed.get("job_category")
                 if isinstance(job_val, str) and job_val.strip():
                     job_category = job_val.strip()
-            return self.backend.generate_keywords(
+            return self.backend.generate_image_queries(
+                text=text,
+                captions=captions,
+                job_category=job_category,
+            )
+
+        if stage == "video_search_generation":
+            text = self._extract_text_from_turn_content(turn_content)
+            captions = None
+            job_category = "recruitment"
+            if isinstance(parsed, dict):
+                raw_captions = parsed.get("captions")
+                if isinstance(raw_captions, list):
+                    captions = raw_captions
+                job_val = parsed.get("job_category")
+                if isinstance(job_val, str) and job_val.strip():
+                    job_category = job_val.strip()
+            return self.backend.generate_video_segments(
                 text=text,
                 captions=captions,
                 job_category=job_category,
@@ -513,6 +544,10 @@ class EvaluationRunner:
                     evaluator_group = self.subtitle_evaluators
                 elif test_case.stage == "keyword_generation":
                     evaluator_group = self.keyword_evaluators
+                elif test_case.stage == "image_search_generation":
+                    evaluator_group = self.image_search_evaluators
+                elif test_case.stage == "video_search_generation":
+                    evaluator_group = self.video_search_evaluators
                 
                 if not evaluator_group:
                     # No evaluator group for this stage - skip

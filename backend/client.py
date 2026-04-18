@@ -274,7 +274,7 @@ Trả về JSON:
             "duration_seconds": duration,
         }
 
-    def generate_keywords(
+    def generate_image_queries(
         self,
         text: str = "",
         captions: Optional[List[Dict[str, Any]]] = None,
@@ -282,11 +282,12 @@ Trả về JSON:
         session_id: Optional[str] = None,
         **kwargs,
     ) -> Dict[str, Any]:
-        """Generate image keywords."""
+        """Generate image search queries."""
         if self.use_mock:
             keywords = self._mock_generate_keywords(text)
             return {
                 "keywords": keywords,
+                "image_queries": [{"timestamp": float(index), "query": keyword} for index, keyword in enumerate(keywords)],
                 "raw_queries": [{"query": keyword} for keyword in keywords],
                 "pexels_results_count": max(0, len(keywords) * 6),
                 "job_category": job_category,
@@ -312,6 +313,23 @@ Trả về JSON:
             return self._normalize_keyword_result(result, job_category)
         except Exception:
             return self._service_generate_keywords(payload_captions, job_category)
+
+    def generate_keywords(
+        self,
+        text: str = "",
+        captions: Optional[List[Dict[str, Any]]] = None,
+        job_category: str = "recruitment",
+        session_id: Optional[str] = None,
+        **kwargs,
+    ) -> Dict[str, Any]:
+        """Backward-compatible alias for image search generation."""
+        return self.generate_image_queries(
+            text=text,
+            captions=captions,
+            job_category=job_category,
+            session_id=session_id,
+            **kwargs,
+        )
 
     def _service_generate_keywords(
         self, captions: List[Dict[str, Any]], job_category: str
@@ -341,7 +359,89 @@ Trả về JSON:
             raise RuntimeError("Invalid keyword response from BE")
         return {
             "keywords": queries,
+            "image_queries": raw_queries,
             "raw_queries": raw_queries,
+            "pexels_results_count": max(0, len(queries) * 6),
+            "job_category": job_category,
+        }
+
+    def generate_video_segments(
+        self,
+        text: str = "",
+        captions: Optional[List[Dict[str, Any]]] = None,
+        job_category: str = "recruitment",
+        session_id: Optional[str] = None,
+        **kwargs,
+    ) -> Dict[str, Any]:
+        """Generate video search segments."""
+        if self.use_mock:
+            keywords = self._mock_generate_keywords(text)
+            segments = [{
+                "time_range": [0.0, float(max(4.0, len(keywords) + 1))],
+                "queries": keywords[:3] or ["professional office"],
+            }]
+            return {
+                "keywords": keywords,
+                "video_segments": segments,
+                "pexels_results_count": max(0, len(keywords) * 6),
+                "job_category": job_category,
+            }
+
+        payload_captions = captions or []
+        if not payload_captions and text.strip():
+            payload_captions = [{
+                "text": text.strip(),
+                "start": 0.0,
+                "end": float(max(3, len(text.split()) / 2.5)),
+            }]
+
+        try:
+            result = self._post_json(
+                "/api/v1/search/videos",
+                {
+                    "captions": payload_captions,
+                    "job_category": job_category,
+                    "session_id": session_id,
+                },
+            )
+            return self._normalize_video_search_result(result, job_category)
+        except Exception:
+            return self._service_generate_video_segments(payload_captions, job_category)
+
+    def _service_generate_video_segments(
+        self, captions: List[Dict[str, Any]], job_category: str
+    ) -> Dict[str, Any]:
+        self._ensure_be_import_path()
+        try:
+            from service.search_service import generate_video_search_terms
+        except Exception as exc:
+            raise RuntimeError(f"BE video search service import failed: {exc}") from exc
+
+        result = self._run_async(
+            generate_video_search_terms(captions_timed=captions, job_category=job_category)
+        )
+        return self._normalize_video_search_result({"video_segments": result}, job_category)
+
+    def _normalize_video_search_result(self, result: Any, job_category: str) -> Dict[str, Any]:
+        raw_segments = []
+        queries: List[str] = []
+        if isinstance(result, dict):
+            raw_segments = result.get("video_segments", [])
+            if isinstance(raw_segments, list):
+                for segment in raw_segments:
+                    if not isinstance(segment, dict):
+                        continue
+                    seg_queries = segment.get("queries")
+                    if isinstance(seg_queries, list):
+                        for query in seg_queries:
+                            query_text = str(query).strip()
+                            if query_text:
+                                queries.append(query_text)
+        if not raw_segments or not queries:
+            raise RuntimeError("Invalid video search response from BE")
+        return {
+            "keywords": queries,
+            "video_segments": raw_segments,
             "pexels_results_count": max(0, len(queries) * 6),
             "job_category": job_category,
         }

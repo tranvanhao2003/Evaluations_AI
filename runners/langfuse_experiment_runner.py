@@ -87,6 +87,8 @@ class LangfuseExperimentRunner:
         stage_keys = {
             "script_generation": ("industry", "target_audience", "job_level", "video_duration"),
             "keyword_generation": ("industry", "target_audience", "job_level"),
+            "image_search_generation": ("industry", "target_audience", "job_level"),
+            "video_search_generation": ("industry", "target_audience", "job_level"),
             "stt_transcription": ("stt_mode", "tts_provider", "language"),
             "stt_raw_transcription": ("stt_mode", "tts_provider", "language"),
             "voice_splitting": ("source_stage", "language"),
