@@ -137,7 +137,7 @@ class KeywordRelevanceEvaluator(LLMJudgeEvaluator):
 
                 Chỉ chấm "visual_relevance".
                 Không chấm diversity.
-                Không chấm searchability/trending volume.
+                Không chấm search ability/trending volume.
 
                 Tiêu chí đánh giá:
                 1. Query có gợi ra đúng chủ thể/hành động/bối cảnh visual cần tìm từ caption không.
